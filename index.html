@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Wheel of Fortune</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+		<div id="sounds">
+			<audio id="bankrupt" src="sounds/bankrupt.mp3"></audio>
+			<audio id="buzzer" src="sounds/buzzer.mp3"></audio>
+			<audio id="puzzle-reveal" src="sounds/puzzle-reveal.mp3"></audio>
+			<audio id="puzzle-solve" src="sounds/puzzle-solve.mp3"></audio>
+			<audio id="click" src="sounds/click.mp3"></audio>
+			<audio id="ding" src="sounds/ding.mp3"></audio>
+		</div>
+		<div id="wrapper">
+			<canvas id="wheel"></canvas>
+			<div id="display">
+				<div id="board">
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+				<div id="catagory"></div>
+				<div id="letters"></div>
+				<div id="controls">
+					<a id="solve">SOLVE</a>
+					<a id="next-puzzle">NEXT</a>
+				</div>
+				<div id="teams"></div>
+			</div>
+		</div>
+	</body>
+	<script src="scripts/myQuery.js"></script>
+	<script src="scripts/puzzles.js"></script>
+	<script src="scripts/spinner.js"></script>
+	<script src="scripts/board.js"></script>
+	<script src="scripts/sound.js"></script>
+	<script src="scripts/teams.js"></script>
+	<script src="scripts/scripts.js"></script>
+</html>
