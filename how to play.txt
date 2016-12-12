@@ -1,0 +1,19 @@
+This game requires a minimum of 4 people (3 players and 1 host) to play. You can also play with as many people on each team you would like. The host is responsible for controling the game using the keyboard or by clicking buttons on the display.
+
+Host controls:
+Letter guesses = The corresponding letter on the keyboard
+Solve puzzle = Shift
+Next puzzle = Enter
+Dedicated buzzer key = Control (for cases like incorrect solve attempts)
+
+To change the name of the teams, just click on the 'Team X' at the top of the team boxes and type what you want.
+
+An ideal setup for the host is to have a large format screen to display the wheel of fortune window to the players, and have the javascript console open in a separate window on another monitor so that they can see the current puzzle.
+
+The host must manually enter puzzles for the contestants to solve in the puzzles.js file using the format outlined there by current puzzles.
+
+You can only play the normal Wheel of Fortune rounds with this game, there are no bonus or final rounds. The game plays until the puzzles run out. The game will automatically shuffle your puzzle before it begins. It will automatically choose the winner at the end of all the puzzles.
+
+The initial version of this game was designed for a christmas party, so there are 20 preloaded christmas themed puzzles.
+
+Note: Sounds are a bit buggy on some platforms.
