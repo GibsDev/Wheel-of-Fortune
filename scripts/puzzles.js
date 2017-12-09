@@ -4,140 +4,202 @@ var puzzles = [];
 puzzles.push([
 	'movie',
 	 '            '  +
-	'   the polar  ' +
-	'   express    ' +
-	 '            ']);
+	'   it\'s a     ' +
+	'   wonderful  ' +
+	 '  life      ']);
 
 puzzles.push([
 	'movie',
-	 ' how the    '  +
-	'  grinch stole' +
-	'  christmas   ' +
-	 '            ' ]);
-
-puzzles.push([
+	 ' a charlie  '  +
+	 '  brown       ' +
+	 '  christmas   ' +
+	 '            ']);
+	 
+ puzzles.push([
 	'movie',
-	 ' the year   '  +
-	'  without a   ' +
-	'  santa claus ' +
+	 ' miracle on '  +
+	' thirty-fourth' +
+	'    street    ' +
 	 '            ']);
-
+	 
 puzzles.push([
-	'movie',
+	'song',
 	 '            '  +
-	'  the little  ' +
-	'  drummer boy ' +
+	'  away in a   ' +
+	'  manger      ' +
 	 '            ']);
 
-
 puzzles.push([
-	'what are you doing?',
+	'song',
 	 '            '  +
-	'  decorating  ' +
-	'  the tree    ' +
-	 '            ']);
+	' go tell it on' +
+	' the mountain ' +
+	'            ']);
 
 puzzles.push([
-	'what are you doing?',
-	 '  kissing   '  +
-	'   under the  ' +
-	'   mistletoe  ' +
-	 '            ']);
+	'song',
+	' grandman   '  +
+	'  got run     ' +
+	'  over by a   ' +
+	' reindeer   ']);
 
 puzzles.push([
-	'what are you doing?',
-	 '            '  +
-	'    singing   ' +
-	'    carols    ' +
-	 '            ']);
+	'song',
+	'i want a    '  +
+	' hippopotamus ' +
+	' for christmas' +
+	'            ']);
 
 puzzles.push([
-	'food and drink',
-	 '            '  +
-	'   sugarplum  ' +
-	'              ' +
-	 '            ']);
-
+	'song',
+	'  o little  '  +
+	'   town of    ' +
+	'   bethlehem  ' +
+	'            ']);
+	
 puzzles.push([
-	'food and drink',
-	 '            '  +
-	'  gingerbread ' +
-	'  house       ' +
-	 '            ']);
-
+	'song',
+	'            '  +
+	'   feliz      ' +
+	'   navidad    ' +
+	'            ']);
+	
+puzzles.push([
+	'song',
+	'            '  +
+	' twelve days  ' +
+	' of christmas ' +
+	'            ']);
+	 
 puzzles.push([
 	'character',
 	 '            '  +
-	'  frosty the  ' +
-	'  snowman     ' +
+	'  buddy the   ' +
+	'  elf         ' +
+     '            ']);
+     
+puzzles.push([
+	'character',
+	 '            '  +
+	' burgermeister' +
+	' meisterburger' +
+     '            ']);
+     
+puzzles.push([
+	'character',
+	 '            '  +
+	'  elf on the  ' +
+	'  shelf       ' +
 	 '            ']);
-
+	 
 puzzles.push([
-	'same letter',
-	 ' rudolph the'  +
-	'  red nose    ' +
-	'  reindeer    ' +
+	'character',
+	 '            '  +
+	'  heat and    ' +
+	'  snow miser  ' +
+     '            ']);
+     
+puzzles.push([
+	'character',
+	 '  prancer   '  +
+	'   vixen      ' +
+	'   comet      ' +
+     '  cupid     ']);
+     
+puzzles.push([
+	'character',
+	 '            '  +
+	'  ghost of    ' +
+	'  christmas   ' +
+	 ' past       ']);
+	 
+puzzles.push([
+	'what are you doing?',
+	 ' catching   '  +
+	'  snowflakes  ' +
+	'  on my       ' +
+     ' tongue     ']);
+     
+puzzles.push([
+	'what are you doing?',
+	 '            '  +
+	' spending time' +
+	' with family  ' +
+     '            ']);
+     
+puzzles.push([
+	'what are you doing?',
+	 '            '  +
+	'   drinking   ' +
+	'   eggnog     ' +
 	 '            ']);
-
+	 
 puzzles.push([
-	'same letter',
-	 '   candy    '  +
-	'    cake      ' +
-	'    cookies   ' +
+	'what are you doing?',
+	 '            '  +
+	'   wrapping   ' +
+	'   presents   ' +
+     '            ']);
+     
+puzzles.push([
+	'place',
+	 '            '  +
+	' island of    ' +
+	' misfit toys  ' +
 	 '            ']);
-
-puzzles.push([
-	'before and after',
-	 '  partridge '  +
-	'   in a pear  ' +
-	'   tree       ' +
-	 '  trimmings ']);
-
-puzzles.push([
-	'crossword: christmas _____',
-	 '  l  t      '  +
-	'   i present  ' +
-	'   s  e  v    ' +
-	 '  time  e   ']);
-
-puzzles.push([
-	'lyrics',
-	 'sister susie'  +
-	' sitting on   ' +
-	' a thistle    ' +
-	 '            ']);
-
-puzzles.push([
-	'lyrics',
-	 '  bells are '  +
-	'   ringing    ' +
-	'   children   ' +
-	 '  singing   ']);
-
-puzzles.push([
-	'lyrics',
-	 'sleigh bells'  +
-	' ring are you ' +
-	' listening    ' +
-	 '            ']);
-
 puzzles.push([
 	'lyrics',
 	 '            '  +
-	' marshmallows ' +
-	' for toasting ' +
+	'  five golden ' +
+	'  rings       ' +
 	 '            ']);
-
+	 
 puzzles.push([
 	'lyrics',
-	 '  born the  '  +
-	'   king of    ' +
-	'   angels     ' +
+	 ' seven      '  +
+	'  swans are   ' +
+	'  swimming    ' +
 	 '            ']);
-
+	 
 puzzles.push([
 	'lyrics',
-	 '  sleep in  '  +
-	'   heavenly   ' +
-	'   peace      ' +
+	 ' i saw mommy'  +
+	'  kissing     ' +
+	'  santa claus ' +
 	 '            ']);
+	 
+puzzles.push([
+	'lyrics',
+	 '            '  +
+	'   seasick    ' +
+	'   crocodile  ' +
+	 '            ']);
+	    
+puzzles.push([
+	'lyrics',
+	 ' it\'s the   '  +
+	'  the best    ' +
+	'  time of the ' +
+	 ' year       ']);
+	 
+puzzles.push([
+	'lyrics',
+	 ' right      '  +
+	'  down santa  ' +
+	'  claus lane  ' +
+	 '            ']);
+	 
+puzzles.push([
+	'lyrics',
+	 ' fill your  '  +
+	'  hearts with ' +
+	'  christmas   ' +
+	 ' cheer      ']);
+	     
+puzzles.push([
+	'on the tree',
+	 '  bows      '  +
+	'      tinsel  ' +
+	'      a       ' +
+	 '   garland  ']);
+	 

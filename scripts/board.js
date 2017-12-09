@@ -37,11 +37,16 @@ function Board(board, puzzles){
 			if(letters[i] != ' '){
 				openCounter++;
 				board.panels[i].letter = letters[i].toUpperCase();
-				window.setTimeout((panel, loads) => {
+				window.setTimeout((panel, loads, letter) => {
+					if (letter == '-' || letter == '\'') {
+						openCounter--;
+						panel.letter = letter;
+						panel.innerHTML = letter;
+					}
 					if(puzzleLoads == loads){
 						panel.className = 'open';
 					}
-				}, openCounter * 50, board.panels[i], puzzleLoads);
+				}, openCounter * 50, board.panels[i], puzzleLoads, letters[i]);
 			}
 		}
 		$('catagory').innerHTML = catagory.toUpperCase();

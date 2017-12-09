@@ -4,7 +4,7 @@ var wheelHeight = 870;
 
 var vowels = 'aeiou';
 
-var values = ['$250','$1500','BANKRUPT','$700','$500','$800','$300','$5000','$500','$250','$350','LOSE A TURN','$200','$600','BANKRUPT','$500','$200','$550','$400','$200','$900','$250','$300','$900'];
+var values = ['$250','$1000','BANKRUPT','$700','$500','$800','$300','$2000','$500','$250','$350','LOSE A TURN','$200','$600','BANKRUPT','$500','$200','$550','$400','$200','$900','$250','$300','$900'];
 
 var colors = ['#09f','#f00','#000','#093','#09f','#ff0','#f00','#f0c','#093','#f00','#ff0','#fff','#f90','#093','#000','#f00','#09f','#ff0','#f90','#093','#f00','#ff0','#f90','#093'];
 
@@ -44,6 +44,7 @@ board.nextPuzzle();
 
 resizeDisplay();
 
+// TODO redo this using css grid or flexbox for cells
 function resizeDisplay(){
 	var w = $('board').contentWidth() / 14;
 	var h = w / 3 * 3.75;
